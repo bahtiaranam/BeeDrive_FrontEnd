@@ -20,9 +20,6 @@ export default {
       url: ''
     }
   },
-  mounted() {
-    console.log(this.$route)
-  },
   methods:{
     getUrl(){
       // window.location.replace(this.redirect)
